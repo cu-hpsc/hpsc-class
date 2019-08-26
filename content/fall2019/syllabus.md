@@ -8,7 +8,7 @@ menu:
     name: Syllabus
 ---
 
-### Overview
+## Overview
 
 This course will develop the skills necessary to reason about
 performance of applications and modern architectures, to identify
@@ -17,16 +17,18 @@ software, to transfer algorithmic patterns and lessons learned from
 different domains, and to communicate such analyses with diverse
 stakeholders.  These skills are important for research and development
 of numerical methods and performance-sensitive science and engineering
-applications as well as jobs affiliated with computing facilities in
-academia, [national labs](https://www.alcf.anl.gov/about/careers), and
-industry.
+applications, obtaining allocations via NSF's
+[XSEDE](https://www.xsede.org/) and DOE [ASCR
+facilities](https://science.osti.gov/ascr/Facilities/Accessing-ASCR-Facilities),
+as well as in jobs affiliated with computing facilities at [national
+labs](https://www.alcf.anl.gov/about/careers), industry, and academia.
 
 We will introduce widely-used parallel programming models such as
 OpenMP, MPI, and CUDA, as well as ubiquitous parallel libraries, but
 the purpose of the course is not to teach interfaces, but to develop
 skills that will be durable and transferrable.
 
-### Preparation
+## Preparation
 
 This course does not assume prior experience with parallel
 programming.  It will use Linux command-line tools, and some
@@ -49,7 +51,7 @@ hole occasionally, but also to ask questions when stuck and to budget
 your time for such excursions so that you can complete assignments
 on-time without compromising your work/life balance.
 
-### Approximate timeline
+## Approximate timeline
 
 | Week   | Topics |
 |--------|--------|
@@ -64,13 +66,13 @@ on-time without compromising your work/life balance.
 | Oct 21 | Graph algorithms |
 | Oct 28 | GPU programming via OpenMP-5 and CUDA |
 | Nov 4  | Parallel file systems and IO |
-| Nov 11 | Data analysis/machine learning algorithms |
+| Nov 11 | Data analysis/machine learning algorithms and dynamic cloud environments |
 | Nov 18 | Particles and N-body systems |
 | Nov 25 | Fall Break |
 | Dec 2  | Multigrid, FFT, and FMM |
 | Dec 9  | Special topics |
 
-### Evaluation
+## Evaluation
 
 | Activity  | Percentage |
 |-----------|------------|
@@ -80,7 +82,7 @@ on-time without compromising your work/life balance.
 | Community analysis | 15% |
 | Final project (written + presentation) | 20% |
 
-#### Git and GitHub
+### Git and GitHub
 
 Homework assignments and in-class activities will be submitted via Git.  This class will use GitHub classroom.
 Homeworks will be completed by cloning GitHub repositories, completing coding and analysis activities, and pushing completed assignments back to GitHub.
@@ -91,14 +93,34 @@ Assignments will typically have written analysis, for which I recommend [Jupyter
 It is notoriously difficult to predict the time required to develop
 quality code and understand its performance, so please start early to
 give yourself plenty of time.  You are welcome to work together on all
-assignments, but must give credit to collaborators.  You should ensure
+assignments, but must acknowledge collaborators.  You should ensure
 that your written work is entirely your own.
 
-### Moodle
+### Community contributions and analysis
+
+Over the course of the semester, you will follow the development
+activities of an active open source project of your choosing.  This
+should be a project with an active developer community from multiple
+institutions that discuss their rationale in public, such as a mailing
+list and/or GitHub/GitLab issues and pull requests.  You will write
+and present about the performance and capability needs of key
+stakeholders, the way project resources are allocated, their metrics
+for success, and any notable achievements made over the course of the
+semester.
+
+You will also make a contribution to be merged by the project.  Adding
+new examples and/or improving documentation are extremely valuable
+contributions, but you may also add features or improve
+implementations.  Please respect the time of project maintainers and
+reviewers by learning about the project and its expectations and
+process, communicating in advance if appropriate, and leaving plenty
+of time for multiple rounds of review and revision.
+
+## Moodle
 
 Moodle will be used to maintain grades.  Please enroll yourself at https://moodle.cs.colorado.edu.
 
-### Resources
+## Resources
 
 This course will use a variety of online resources and papers.
 There is no required textbook, but the following resources may be helpful.
@@ -116,24 +138,23 @@ There is no required textbook, but the following resources may be helpful.
 
 A [SIAM Membership](http://www.siam.org/students/memberships.php) is free for CU students and provides a 30% discount on SIAM books.
 
-### Disability Accommodations
+## Disability Accommodations
 
 If you qualify for accommodations because of a disability, please submit to your professor a letter from Disability Services in a timely manner (for exam accommodations provide your letter at least one week prior to the exam) so that your needs can be addressed. Disability Services determines accommodations based on documented disabilities. Contact Disability Services at 303-492-8671 or by e-mail at dsinfo@colorado.edu. If you have a temporary medical condition or injury, see the Temporary Injuries guidelines under the Quick Links at the Disability Services website and discuss your needs with your professor.
 
-### Religious Observances
+## Religious Observances
 
 [Campus policy regarding religious observances](http://www.colorado.edu/policies/fac_relig.html) requires that faculty make every effort to deal reasonably and fairly with all students who, because of religious obligations, have conflicts with scheduled exams, assignments or required assignments/attendance. If this applies to you, please speak with me directly as soon as possible at the beginning of the term. See the [campus policy regarding religious observances](http://www.colorado.edu/policies/observance-religious-holidays-and-absences-classes-andor-exams) for full details.
 
-### Classroom Behavior
+## Classroom Behavior
 
 Students and faculty each have responsibility for maintaining an appropriate learning environment. Those who fail to adhere to such behavioral standards may be subject to discipline. Professional courtesy and sensitivity are especially important with respect to individuals and topics dealing with differences of race, color, culture, religion, creed, politics, veteran's status, sexual orientation, gender, gender identity and gender expression, age, disability,and nationalities. Class rosters are provided to the instructor with the student's legal name. I will gladly honor your request to address you by an alternate name or gender pronoun. Please advise me of this preference early in the semester so that I may make appropriate changes to my records. For more information, see the policies on [classroom behavior](http://www.colorado.edu/policies/student-classroom-and-course-related-behavior) and the [student code](http://www.colorado.edu/osc/sites/default/files/attached-files/studentconductcode_16-17-a.pdf).
 
-### Discrimination and Harassment
+## Discrimination and Harassment
 
 The University of Colorado Boulder (CU Boulder) is committed to maintaining a positive learning, working, and living environment. CU Boulder will not tolerate acts of sexual misconduct, discrimination, harassment or related retaliation against or by any employee or student. CU's Sexual Misconduct Policy prohibits sexual assault, sexual exploitation, sexual harassment,intimate partner abuse (dating or domestic violence), stalking or related retaliation. CU Boulder's Discrimination and Harassment Policy prohibits discrimination, harassment or related retaliation based on race, color,national origin, sex, pregnancy, age, disability, creed, religion, sexual orientation, gender identity, gender expression, veteran status, political affiliation or political philosophy. Individuals who believe they have been subject to misconduct under either policy should contact the Office of Institutional Equity and Compliance (OIEC) at 303-492-2127. Information about the OIEC, the above referenced policies, and the campus resources available to assist individuals regarding sexual misconduct, discrimination, harassment or related retaliation can be found at the [OIEC website](http://www.colorado.edu/institutionalequity/).
 
-### Honor Code
+## Honor Code
 
 All students enrolled in a University of Colorado Boulder course are responsible for knowing and adhering to the [academic integrity policy](http://www.colorado.edu/policies/academic-integrity-policy) of the institution. Violations of the policy may include: plagiarism, cheating,fabrication, lying, bribery, threat, unauthorized access, clicker fraud,resubmission, and aiding academic dishonesty.  All incidents of academic misconduct will be reported to the Honor Code Council (honor@colorado.edu; 303-735-2273). Students who are found responsible for violating the academic integrity policy will be subject to nonacademic sanctions from the Honor Code Council as well as academic sanctions from the faculty member. Additional information regarding the academic integrity policy can be found at http://honorcode.colorado.edu.
-
 
