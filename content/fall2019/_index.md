@@ -31,3 +31,9 @@ weight: 1
 #### Teaching Assistant: [Camden Elliott-Williams](https://www.colorado.edu/ics/camden-elliott-williams)
 * GitHub: [@CamdenCU](https://github.com/CamdenCU)
 * Office hours: TBA Wed
+
+## Videos
+
+| Date | Topic |
+|------|-------|
+| [Aug 26](https://cu-classcapture.colorado.edu/Mediasite/Play/055148f7c5c141578bb467d237da1d801d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Course introduction and preview of architectural trends |

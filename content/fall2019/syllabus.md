@@ -47,7 +47,7 @@ questions through documentation, online resources, and even consulting
 the code or running experiments.  (Most of our software stack is open
 source.)  That said, it's easy to lose lots of time in a rabbit hole.
 My hope is that you will have the courage to dive into that rabbit
-hole occasionally, but also to ask questions when stuck and to budget
+hole occasionally, but also to [ask questions](https://jvns.ca/blog/good-questions/) when stuck and to budget
 your time for such excursions so that you can complete assignments
 on-time without compromising your work/life balance.
 
@@ -115,6 +115,19 @@ implementations.  Please respect the time of project maintainers and
 reviewers by learning about the project and its expectations and
 process, communicating in advance if appropriate, and leaving plenty
 of time for multiple rounds of review and revision.
+
+### Distance sections and labs
+
+The lectures for this class can be joined synchronously via Zoom (see
+[instructions](fall2019/)); they are also recorded and will be posted
+[here](fall2019/#videos) (and automatically on Canvas).  Some labs
+will be activities that can be completed within the time period (with
+group discussion and compare/contrast) while others will be a jump
+start for homeworks.  I envision that distance students will form
+groups and set a time for virtual discussion in lieu of synchronous
+discussion during the lab period.  In both settings, there will be a
+peer evaluation component during which each participant credits one or
+more peers with some specific contributions to the conversation.
 
 ## Moodle
 
