@@ -34,6 +34,11 @@ weight: 1
 
 ## Videos
 
+Videos appear automatically on
+[Canvas](https://canvas.colorado.edu/courses/54520/external_tools/2040)
+and linked below.
+
 | Date | Topic |
 |------|-------|
 | [Aug 26](https://cu-classcapture.colorado.edu/Mediasite/Play/055148f7c5c141578bb467d237da1d801d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Course introduction and preview of architectural trends |
+| [Aug 28](https://cu-classcapture.colorado.edu/Mediasite/Play/e6af2695fcfe4276b08a3e85ea625dbf1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to architecture |
