@@ -140,7 +140,8 @@ There is no required textbook, but the following resources may be helpful.
 
 * [Hager and Wellein (2010), **Introduction to High Performance Computing for Scientists and Engineers**](https://blogs.fau.de/hager/hpc-book)
 * [van de Geijn, Myers, Parikh (2019): **LAFF on Programming for High Performance**](http://www.cs.utexas.edu/users/flame/laff/pfhp/index.html) (free online)
-* [Eijkhout (2017), **Introduction to High-Performance Scientific Computing**](http://pages.tacc.utexas.edu/~eijkhout/istc/istc.html) (free PDF)
+* [Eijkhout, Chow, van de Geijn (2017), **Introduction to High-Performance Scientific Computing**](http://pages.tacc.utexas.edu/~eijkhout/istc/istc.html) (free PDF)
+* [Grama, Gupta, Karypis, Kumar (2003), **Introduction to Parallel Computing**](https://www-users.cs.umn.edu/~karypis/parbook/)
 
 #### Additional resources
 

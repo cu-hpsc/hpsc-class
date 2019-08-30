@@ -7,7 +7,7 @@ weight: 2
 menu:
   fall2019:
     parent: Lecture Notes
-    name: 2019-08-26 Architecture
+    name: 2019-08-28 Architecture
 ---
 
 # Cores, caches, and memory

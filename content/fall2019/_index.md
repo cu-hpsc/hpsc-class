@@ -16,6 +16,7 @@ weight: 1
 * Lectures: **Mon/Wed/Fri 11-11:50** in ECCR 150
 * Labs: **Fri 9-10:40** in KOBL 300
 * Website: https://cucs-hpsc.github.io/fall2019
+* Issues/Questions/etc.: [Browse](https://github.com/cucs-hpsc/hpsc-class/issues) or [Create](https://github.com/cucs-hpsc/hpsc-class/issues/new)
 
 #### Zoom
 - Meeting ID: 214-104-523
@@ -42,3 +43,4 @@ and linked below.
 |------|-------|
 | [Aug 26](https://cu-classcapture.colorado.edu/Mediasite/Play/055148f7c5c141578bb467d237da1d801d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Course introduction and preview of architectural trends |
 | [Aug 28](https://cu-classcapture.colorado.edu/Mediasite/Play/e6af2695fcfe4276b08a3e85ea625dbf1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to architecture |
+| [Aug 30](https://cu-classcapture.colorado.edu/Mediasite/Play/f062611e09f64437a13f64de570bc30e1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to vectorization and ILP |
