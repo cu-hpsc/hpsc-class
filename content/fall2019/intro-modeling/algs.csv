@@ -1,0 +1,6 @@
+Name,bytes,flops
+Triad,24,2
+SpMV,12,2
+Stencil27-ideal,8,54
+Stencil27-cache,24,54
+MatFree-FEM,2376,15228
