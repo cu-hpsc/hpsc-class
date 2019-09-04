@@ -31,7 +31,7 @@ weight: 1
 
 #### Teaching Assistant: [Camden Elliott-Williams](https://www.colorado.edu/ics/camden-elliott-williams)
 * GitHub: [@CamdenCU](https://github.com/CamdenCU)
-* Office hours: TBA Wed
+* Office hours: Wed 9:30-10:30 and 13:30-14:30 or by appointment in ECCR 1B "Systems Lab" ([see map](/img/camden-desk.png))
 
 ## Videos
 
