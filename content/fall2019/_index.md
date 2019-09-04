@@ -44,3 +44,4 @@ and linked below.
 | [Aug 26](https://cu-classcapture.colorado.edu/Mediasite/Play/055148f7c5c141578bb467d237da1d801d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Course introduction and preview of architectural trends |
 | [Aug 28](https://cu-classcapture.colorado.edu/Mediasite/Play/e6af2695fcfe4276b08a3e85ea625dbf1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to architecture |
 | [Aug 30](https://cu-classcapture.colorado.edu/Mediasite/Play/f062611e09f64437a13f64de570bc30e1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to vectorization and ILP |
+| [Sep 4](https://cu-classcapture.colorado.edu/Mediasite/Play/422cf46ffd1844bb8492e8831f92d9461d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to performance modeling (roofline) |
