@@ -33,6 +33,19 @@ weight: 1
 * GitHub: [@CamdenCU](https://github.com/CamdenCU)
 * Office hours: Wed 9:30-10:30 and 13:30-14:30 or by appointment in ECCR 1B "Systems Lab" ([see map](/img/camden-desk.png))
 
+## Homework
+
+For each assignment, click the link below to accept via GitHub
+Classroom.  This creates a private repository for you to work in.
+Then `git clone` the repository to whatever machine you'll work on and
+follow instructions in the README.  Usually you will be asked to read
+and edit code, run a range of experiments, and interpret/plot data in
+a `Report.ipynb`.
+
+| Assigned | Due | Description |
+|----------|-----|-------------|
+| 2019-09-06 | 2019-09-16 (part by 2019-09-13) | [Experiments in vectorization](https://classroom.github.com/a/DOC_yYu2)
+
 ## Videos
 
 Videos appear automatically on
@@ -45,3 +58,4 @@ and linked below.
 | [Aug 28](https://cu-classcapture.colorado.edu/Mediasite/Play/e6af2695fcfe4276b08a3e85ea625dbf1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to architecture |
 | [Aug 30](https://cu-classcapture.colorado.edu/Mediasite/Play/f062611e09f64437a13f64de570bc30e1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to vectorization and ILP |
 | [Sep 4](https://cu-classcapture.colorado.edu/Mediasite/Play/422cf46ffd1844bb8492e8831f92d9461d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to performance modeling (roofline) |
+| [Sep 6](https://cu-classcapture.colorado.edu/Mediasite/Play/6446d91e5f2f46b680d4ce5492e88f9b1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to parallel scaling |
