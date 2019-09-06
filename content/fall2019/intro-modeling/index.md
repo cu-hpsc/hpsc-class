@@ -7,7 +7,6 @@ menu:
   fall2019:
     parent: Lecture Notes
     name: 2019-09-04 Modeling
-draft: true
 ---
 
 ## Why model performance?
