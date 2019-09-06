@@ -9,7 +9,6 @@ menu:
     parent: Lecture Notes
     name: 2019-09-06 Parallel Scaling
 ---
-
 ## Programs with more than one part
 
 So far, we've focused on simple programs with only one part, but real programs have several different parts, often with data dependencies.
@@ -39,18 +38,11 @@ plt.loglog(ps, exec_time(.99, ps, latency=0))
 plt.loglog(ps, exec_time(1, ps, latency=0))
 plt.title('Strong scaling')
 plt.xlabel('p')
-plt.ylabel('time')
+plt.ylabel('time');
 ```
 
 
-
-
-    Text(0, 0.5, 'time')
-
-
-
-
-![png](./lecture_2_1.png)
+![png](./lecture_2_0.png)
 
 
 ## Strong scaling: fixed total problem size
@@ -105,7 +97,8 @@ plt.ylim(bottom=0);
 
 
 ## Stunt 1: Report speedup, not absolute performance!
-![Hager](https://blogs.fau.de/hager/files/2010/07/stunt1.jpg)
+
+![Hager](stunt1.jpg)
 
 ## Efficiency-Time spectrum (my preference)
 
@@ -180,6 +173,8 @@ I replotted these data for [my talk](https://jedbrown.org/files/20190822-Latsis.
 
 # Further resources
 * [Hager: Fooling the masses](https://blogs.fau.de/hager/archives/5260)
-* [Belli and Hoefler: Scientific Benchmarking of Parallel Computing Systems](https://htor.inf.ethz.ch/publications/index.php?pub=222)
+  * Learn by counter-examples
+* [Hoefler and Belli: Scientific Benchmarking of Parallel Computing Systems](https://htor.inf.ethz.ch/publications/index.php?pub=222)
+  * Recommended best practices, especially for dealing with performance variability
 
 Please read/watch something from this list and be prepared to share on Monday.
