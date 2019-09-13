@@ -65,3 +65,4 @@ and linked below.
 | [Sep 6](https://cu-classcapture.colorado.edu/Mediasite/Play/6446d91e5f2f46b680d4ce5492e88f9b1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to parallel scaling |
 | [Sep 9](https://cu-classcapture.colorado.edu/Mediasite/Play/e4b2187d5d2d45dca8321a86e0e0e8a41d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Joel Frahm on CU [Research Computing](https://www.colorado.edu/rc/) ([slides](https://github.com/ResearchComputing/CSCI-5576/blob/master/RC-CSCI-5576.pdf)) |
 | [Sep 11](https://cu-classcapture.colorado.edu/Mediasite/Play/ef164dcd135b487ca938617d8823340c1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | OpenMP Basics |
+| [Sep 13](https://cu-classcapture.colorado.edu/Mediasite/Play/39793bba0c824472a92202a3816858b91d?catalog=38dea75ea63b491fa8cc2804c084abb821) | OpenMP memory semantics, synchronization, and `perf` demo |
