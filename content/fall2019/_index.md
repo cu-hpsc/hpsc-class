@@ -67,3 +67,4 @@ and linked below.
 | [Sep 11](https://cu-classcapture.colorado.edu/Mediasite/Play/ef164dcd135b487ca938617d8823340c1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | OpenMP Basics |
 | [Sep 13](https://cu-classcapture.colorado.edu/Mediasite/Play/39793bba0c824472a92202a3816858b91d?catalog=38dea75ea63b491fa8cc2804c084abb821) | OpenMP memory semantics, synchronization, and `perf` demo |
 | [Sep 16](https://cu-classcapture.colorado.edu/Mediasite/Play/51f737b31b4a4f13a6082e4dcd1adedd1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | OpenMP tasking and computational depth/critical path |
+| [Sep 18](https://cu-classcapture.colorado.edu/Mediasite/Play/b7c3da0053d54ab99e4884a5ce7c93e51d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Low-level optimization, parallel reductions and scans |
