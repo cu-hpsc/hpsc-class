@@ -49,6 +49,7 @@ a `Report.ipynb`.
 | Assigned | Due | Description |
 |----------|-----|-------------|
 | 2019-09-06 | 2019-09-16 (part by 2019-09-13) | [Experiments in vectorization](https://classroom.github.com/a/DOC_yYu2)
+| 2019-09-20 | 2019-09-30 | [Sorting](https://classroom.github.com/a/d4_gpzck) |
 
 ## Videos
 
@@ -68,3 +69,6 @@ and linked below.
 | [Sep 13](https://cu-classcapture.colorado.edu/Mediasite/Play/39793bba0c824472a92202a3816858b91d?catalog=38dea75ea63b491fa8cc2804c084abb821) | OpenMP memory semantics, synchronization, and `perf` demo |
 | [Sep 16](https://cu-classcapture.colorado.edu/Mediasite/Play/51f737b31b4a4f13a6082e4dcd1adedd1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | OpenMP tasking and computational depth/critical path |
 | [Sep 18](https://cu-classcapture.colorado.edu/Mediasite/Play/b7c3da0053d54ab99e4884a5ce7c93e51d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Low-level optimization, parallel reductions and scans |
+| [Sep 20](https://cu-classcapture.colorado.edu/Mediasite/Play/4233af0b8ef54477bf63590c2229a26f1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Searching and sorting methods (based on parts of [slides](http://home.cs.colorado.edu/~rahimian/articles/18/hpc18-03-search.sl.html) and [slides](http://home.cs.colorado.edu/~rahimian/articles/18/hpc18-03-tech.sl.html)) |
+| [Sep 23](https://cu-classcapture.colorado.edu/Mediasite/Play/e85296370c80494492649d73fc068f111d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Bitonic sort recap/demo; intro to graph independence |
+| Sep 25 | Class canceled; material coming soon |
