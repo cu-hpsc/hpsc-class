@@ -72,3 +72,4 @@ and linked below.
 | [Sep 20](https://cu-classcapture.colorado.edu/Mediasite/Play/4233af0b8ef54477bf63590c2229a26f1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Searching and sorting methods (based on parts of [slides](http://home.cs.colorado.edu/~rahimian/articles/18/hpc18-03-search.sl.html) and [slides](http://home.cs.colorado.edu/~rahimian/articles/18/hpc18-03-tech.sl.html)) |
 | [Sep 23](https://cu-classcapture.colorado.edu/Mediasite/Play/e85296370c80494492649d73fc068f111d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Bitonic sort recap/demo; intro to graph independence |
 | [Sep 25](https://www.youtube.com/watch?v=8bB2L1-8rBI) | Recorded lecture: Introduction to MPI |
+| [Sep 27](https://cu-classcapture.colorado.edu/Mediasite/Play/6551873dad33443087afc7d4339a28141d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Library interfaces with MPI: Conway's Game of Life |
