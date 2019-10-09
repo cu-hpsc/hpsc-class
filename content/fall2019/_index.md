@@ -76,3 +76,4 @@ and linked below.
 | [Sep 30](https://cu-classcapture.colorado.edu/Mediasite/Play/0fccb0cac51145d694f95a3b7c4e043a1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Dense linear algebra and networks |
 | [Oct 2](https://cu-classcapture.colorado.edu/Mediasite/Play/fc99deffabad45899dfc6bfab7099a201d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Dense linear algebra and orthogonality |
 | [Oct 4](https://cu-classcapture.colorado.edu/Mediasite/Play/34ae8e391dbb4ce0b9f859837d8a4bdf1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Orthogonality and conditioning |
+| [Oct 7](https://cu-classcapture.colorado.edu/Mediasite/Play/6ab776e8c8094589894f5a1cfd6cb6f51d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Parallel QR and Elemental for distributed memory |
