@@ -37,6 +37,10 @@ I - P_{SGS}^{-1} A &= \big( I - (D+U)^{-1} A \big) \big(I - (L+D)^{-1} A \big) \
   &= I - \underbrace{(D+U)^{-1} D (L+D)^{-1}}_{P_{SGS}^{-1}} A .
 \end{align}$$
 
+### Further resources
+
+* [Saad (2003) **Iterative Methods**](https://www-users.cs.umn.edu/~saad/IterMethBook_2ndEd.pdf): Chapter 4: Basic Iterative Methods
+
 ## Domain decomposition
 
 Suppose we know how to solve problems on "subdomains", which may overlap.
