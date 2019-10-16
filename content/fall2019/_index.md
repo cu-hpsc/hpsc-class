@@ -80,3 +80,4 @@ and linked below.
 | [Oct 9](https://cu-classcapture.colorado.edu/Mediasite/Play/e02c02c5f9894a418e02b4c310129d021d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Sparse and iterative linear algebra |
 | [Oct 11](https://cu-classcapture.colorado.edu/Mediasite/Play/8f13ca9b522b4033af4f7a8a46b954be1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to preconditioning |
 | [Oct 14](https://cu-classcapture.colorado.edu/Mediasite/Play/15e583c6ae124f6c88bfd550e70cc82e1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to domain decomposition preconditioning |
+| [Oct 16](https://cu-classcapture.colorado.edu/Mediasite/Play/79a9c6440fc347c1af6b8047fb48cba51d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Domain decomposition preconditioning and scaling |
