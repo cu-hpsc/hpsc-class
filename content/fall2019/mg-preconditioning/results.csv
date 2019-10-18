@@ -1,0 +1,13 @@
+method,refine,its,cond
+bjacobi,3,20,27.90
+bjacobi,4,27,58.54
+bjacobi,5,36,122.2
+bjacobi,6,47,256.2
+bjacobi,7,62,529.7
+bjacobi,8,82,1080.6
+asm,3,12,7.63
+asm,4,16,17.15
+asm,5,23,37.57
+asm,6,31,78.75
+asm,7,41,165.1
+asm,8,54,344.8
