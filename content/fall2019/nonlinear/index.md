@@ -1,5 +1,5 @@
 ---
-title: "Nonlinear and transient problems"
+title: "Nonlinear Solvers"
 date: 2019-10-21T06:49:25-06:00
 toc: true
 markup: mmark
@@ -8,7 +8,7 @@ weight: 2
 menu:
   fall2019:
     parent: Lecture Notes
-    name: 2019-10-21 Nonlinear/transient
+    name: 2019-10-21 Nonlinear
 ---
 
 ```python
@@ -17,12 +17,96 @@ import pandas
 import seaborn
 import matplotlib.pyplot as plt
 import numpy as np
-plt.style.use('seaborn')
+plt.style.use('ggplot')
 ```
 
-## Newton-Raphson methods for systems
+## Nonlinear problems
 
-Up to now, we have been solving linear problems.
+Up to now, we have been solving linear problems.  The preferred way to leverage fast linear solves for (potentially ill-conditioned) nonlinear problems is via defect correction, usually Newton methods.
+
+### The Newton-Raphson method for scalar problems
+
+Much of numerical analysis reduces to [Taylor series](https://en.wikipedia.org/wiki/Taylor_series), the approximation
+$$ f(x) = f(x_0) + f'(x_0) (x-x_0) + \underbrace{f''(x_0) (x - x_0)^2 / 2 + \dotsb}_{O((x-x_0)^2)} $$
+centered on some reference point $x_0$.
+
+In numerical computation, it is exceedingly rare to look beyond the first-order approximation
+$$ \tilde f_{x_0}(x) = f(x_0) + f'(x_0)(x - x_0) . $$
+Since $\tilde f_{x_0}(x)$ is a linear function, we can explicitly compute the unique solution of $\tilde f_{x_0}(x) = 0$ as
+$$ x = x_0 - f(x_0) / f'(x_0) . $$
+This is Newton's Method (aka Newton-Raphson or Newton-Raphson-Simpson) for finding the roots of differentiable functions.
+
+
+```python
+def newton(func, x, verbose=False):
+    """Solve f(x) = 0 using initial guess x.
+    
+    The provided function func must return a pair of values,
+    f(x) and its derivative f'(x).  For example, to solve
+    the equation x^2 - 3 starting from initial guess x=1,
+    one would write
+    
+    def func(x):
+        return x**2 - 3, 2*x
+        
+    newton(func, 1)
+    """
+    for i in range(100):
+        fx, dfx = func(x)
+        if verbose:
+            print(func.__name__, i, x, fx)
+        if np.abs(fx) < 1e-12:
+            return x, fx, i
+        try:
+            x -= fx / dfx
+        except ZeroDivisionError:
+            return x, np.NaN, i
+        
+def test_func(x):
+    f = np.exp(x) - np.cos(x) - 1
+    dfdx = np.exp(x) + np.sin(x)
+    return f, dfdx
+
+x0 = -2
+root, _, _ = newton(test_func, x0, verbose=1)
+x = np.linspace(min(x0,root)-1, max(x0,root+1))
+plt.plot(x, test_func(x)[0])
+plt.plot([x0,root], test_func([x0,root])[0], 'ok');
+```
+
+    test_func 0 -2 -0.44851788021624484
+    test_func 1 -2.579508809224632 -0.07804240445653787
+    test_func 2 -2.7502278755485423 -0.01169737888867406
+    test_func 3 -2.787065713793899 -0.0005874789197288788
+    test_func 4 -2.7891231086081634 -1.8550336560174685e-06
+    test_func 5 -2.7891296463678903 -1.874356225783913e-11
+    test_func 6 -2.7891296464339503 0.0
+
+
+
+![png](./lecture_2_1.png)
+
+
+* We say this method converges **quadratically** since the number of correct digits doubles each iteration.
+* The initial guess matters; a bad initial guess can take us to the wrong solution or cause divergence.
+
+### Systems of equations
+
+We've been solving linear systems, such as those resulting from discretizing linear PDE.  To address nonlinear problems (be they from PDE or otherwise), we'll express our problem as
+$$ F(u) = 0 $$
+where $u$ is a vector of state variables and $F(u)$ is a vector of residuals of the same length.
+Note that linear problems can be written in this form, $F(u) = A u - b$.
+We will primarily be interested in defect correction methods of the form
+\begin{gather} A \delta u = - F(u) \\
+u \gets u + \gamma \delta u
+\end{gather}
+where $A$ is a matrix and $\gamma$ is a scalar parameter that may need to be found using an iteration.
+
+* If $A = I$, this is a Richardson iteration, which is related to gradient descent.  Such methods are usually quite slow unless $F(u)$ is especially "nice".
+* If $A = \partial F/\partial u$, this is a Newton method and $\gamma=1$ can often be used.
+
+
+## Newton-Raphson methods for systems
 
 The **Jacobian** of $F$ is
 $$ J(u) = \frac{\partial F}{\partial u}(u) =
@@ -154,6 +238,18 @@ fsolve_newtonkrylov(F, np.array([0.,1]), rtol=1e-6, verbose=True)
 
 
 
+### Jacobian-Free Newton Krylov (JFNK) and Preconditioning
+
+While matrix-free finite differencing can save us the need to assemble the Jacobian (and write code to do that), there is no free lunch: Krylov convergence will be slow unless we have a good preconditioner.  But sometimes there are short-cuts: we can assemble a cheaper approximation for preconditioning, or develop multigrid methods that don't involve any assembled matrices.
+
+#### Further reading
+
+* Knoll and Keyes (2004) [**Jacobian-free Newton–Krylov methods: a survey of approaches and applications**](https://www.cs.odu.edu/~keyes/papers/jfnk.pdf)
+
+## Case study: Newton-Krylov Multigrid methods for hydrostatic ice flow
+
+This is a strongly nonlinear problem for which convergence of a high-resolution model stagnates if the initial guess isn't good.  It is, however, amenable to a method called grid sequencing where we solve coarse problems to generate initial guesses on the fine grid. At each grid level, we solve nonlinear problems using Newton-Krylov methods preconditioned by multigrid.
+
 ![](tme-ice-nk.png)
 
 ![](tme-ice-its.png)
@@ -164,3 +260,21 @@ fsolve_newtonkrylov(F, np.array([0.,1]), rtol=1e-6, verbose=True)
 
 * Brown, Smith, and Ahmadia (2013) [**Textbook multigrid efficiency for hydrostatic ice flow**](https://doi.org/10.1137/110834512)
   * Configuring an efficient nonlinear solver (see `snes/examples/tutorials/ex48.c` in PETSc repository)
+
+### Costs
+
+* Residual evaluation $F(u)$
+* Jacobian assembly $J(u) = F'(u)$
+* Preconditioner setup $M^{-1}$
+* Jacobian application $J(u) v$
+* Preconditioner application $M^{-1} v$
+* Krylov vector work: inner products and vector axpy
+
+#### Shifting costs
+* Approximate Jacobian
+* Less expensive preconditioner `-pc_type jacobi`
+* Lag the preconditioner `-snes_lag_preconditioner`
+* Lag the Jacobian `-snes_lag_jacobian`
+* Matrix-free finite differencing to skip assembly of Jacobian `-snes_mf` or `-snes_mf_operator`
+
+A good PETSc example to test with: `src/snes/examples/tutorials/ex15.c`
