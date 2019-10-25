@@ -13,7 +13,7 @@ menu:
 
 Guest lecture on [libCEED](https://github.com/ceed/libceed) from Dr. [Valeria Barra](https://csel-web.cs.colorado.edu/~vaba3353/): [slides](CUCS_HPSClecture.pdf).
 
-# HPSC Lab 9
+## HPSC Lab 9
 2019-10-25
 
 We are going to run some PETSc examples and consider them as "baseline" for the libCEED examples that will follow.
