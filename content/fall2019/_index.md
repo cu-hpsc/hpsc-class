@@ -84,3 +84,5 @@ and linked below.
 | [Oct 18](https://cu-classcapture.colorado.edu/Mediasite/Play/6605b42ccb024f3cbf372333f40602be1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Multilevel preconditioning and predictive modeling |
 | [Oct 21](https://cu-classcapture.colorado.edu/Mediasite/Play/ed0ca3d18e76408cb81056ade23f3acb1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Nonlinear solvers |
 | [Oct 23](https://cu-classcapture.colorado.edu/Mediasite/Play/c9f9cc4d51334476b151dd165f2ad3861d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Transient problems |
+| [Oct 25](https://cu-classcapture.colorado.edu/Mediasite/Play/647268d14f6947f0806b7833dfaa50de1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | libCEED: spectral elements and matrix-free methods |
+| [Oct 28](https://cu-classcapture.colorado.edu/Mediasite/Play/e5bd9725ef5f432d8298ff1ee605fe8f1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Coprocessor architectures |
