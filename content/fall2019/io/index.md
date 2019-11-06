@@ -696,6 +696,6 @@ https://www.olcf.ornl.gov/for-users/system-user-guides/summit/summit-user-guide/
 
 ### Further reading
 
-* [ATPESC 2019 Presentations](https://extremecomputingtraining.anl.gov/agenda-2019/) (see August 3 slides)
+* [ATPESC 2019 Presentations](https://extremecomputingtraining.anl.gov/agenda-2019/) (see August 2 slides)
 * [ATPESC 2019 Videos: Data Intensive Computing and I/O](https://www.youtube.com/watch?v=adHRqgtL4lE&list=PLGj2a3KTwhRY6N5GJG-kICMYfUBm6dK-L)
 * [Hadoop's Uncomfortable Fit in HPC](https://glennklockwood.blogspot.com/2014/05/hadoops-uncomfortable-fit-in-hpc.html?spref=tw)
