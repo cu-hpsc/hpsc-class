@@ -89,3 +89,4 @@ and linked below.
 | [Oct 30](https://cu-classcapture.colorado.edu/Mediasite/Play/7b7f65749dbd47a58a5a9f4187da308d1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | CUDA (by Camden Elliott-Williams) |
 | [Nov 1](https://cu-classcapture.colorado.edu/Mediasite/Play/66058d68d48f4a07a47d4838de875f2c1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Practical CUDA |
 | [Nov 4](https://cu-classcapture.colorado.edu/Mediasite/Play/1e00939f2baa44dea5620c709c578c071d?catalog=38dea75ea63b491fa8cc2804c084abb821) | ISPC, OpenMP `target`, OpenACC |
+| [Nov 6](https://cu-classcapture.colorado.edu/Mediasite/Play/3d350c5b6ee34167a9d7c605e617e0d61d?catalog=38dea75ea63b491fa8cc2804c084abb821) | HPC I/O |
