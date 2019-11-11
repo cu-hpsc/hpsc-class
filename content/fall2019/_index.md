@@ -91,3 +91,4 @@ and linked below.
 | [Nov 4](https://cu-classcapture.colorado.edu/Mediasite/Play/1e00939f2baa44dea5620c709c578c071d?catalog=38dea75ea63b491fa8cc2804c084abb821) | ISPC, OpenMP `target`, OpenACC |
 | [Nov 6](https://cu-classcapture.colorado.edu/Mediasite/Play/3d350c5b6ee34167a9d7c605e617e0d61d?catalog=38dea75ea63b491fa8cc2804c084abb821) | HPC I/O |
 | [Nov 8](https://cu-classcapture.colorado.edu/Mediasite/Play/dd46035034f240fa9e6c425187cd89451d?catalog=38dea75ea63b491fa8cc2804c084abb821) | MPI-IO |
+| [Nov 11](https://cu-classcapture.colorado.edu/Mediasite/Play/2f06a5e5ae8a4a8c94bec399ee3200ab1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Data-intensive workflows |
