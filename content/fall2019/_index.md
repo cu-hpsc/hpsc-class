@@ -93,3 +93,4 @@ and linked below.
 | [Nov 8](https://cu-classcapture.colorado.edu/Mediasite/Play/dd46035034f240fa9e6c425187cd89451d?catalog=38dea75ea63b491fa8cc2804c084abb821) | MPI-IO |
 | [Nov 11](https://cu-classcapture.colorado.edu/Mediasite/Play/2f06a5e5ae8a4a8c94bec399ee3200ab1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Data-intensive workflows |
 | [Nov 13](https://cu-classcapture.colorado.edu/Mediasite/Play/cec47a7551094e0a8e2aac75f650a76e1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Data and probability |
+| [Nov 15](https://cu-classcapture.colorado.edu/Mediasite/Play/5fd68b94f67648ee84c1eefba267226e1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Dynamic/interactive parallel runtimes |
