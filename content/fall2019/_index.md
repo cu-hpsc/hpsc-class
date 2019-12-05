@@ -96,5 +96,6 @@ and linked below.
 | [Nov 15](https://cu-classcapture.colorado.edu/Mediasite/Play/5fd68b94f67648ee84c1eefba267226e1d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Dynamic/interactive parallel runtimes |
 | [Nov 18](https://cu-classcapture.colorado.edu/Mediasite/Play/587cb37b103e4a61b8bc98469991b4f71d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Intro to N-body simulation |
 | [Nov 20](https://cu-classcapture.colorado.edu/Mediasite/Play/043f6d5e8a6243d2a55670a49968f6081d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Long-range evaluation in N-body simulation |
-| [Nov 22](https://cu-classcapture.colorado.edu/Mediasite/Play/5174513bb1294d1fb49c135f5c240de81d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Molecular Dynamics |
-| [Dec 2](https://cu-classcapture.colorado.edu/Mediasite/Play/fca8349b144f462398bfbf5db4a948551d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Git Workflows |
+| [Nov 22](https://cu-classcapture.colorado.edu/Mediasite/Play/5174513bb1294d1fb49c135f5c240de81d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Molecular dynamics |
+| [Dec 2](https://cu-classcapture.colorado.edu/Mediasite/Play/fca8349b144f462398bfbf5db4a948551d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Git workflows |
+| [Dec 4](https://cu-classcapture.colorado.edu/Mediasite/Play/7f764eb6c88148cbba3639db346e07b91d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Fourier methods |
