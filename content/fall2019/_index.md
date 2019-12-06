@@ -99,3 +99,4 @@ and linked below.
 | [Nov 22](https://cu-classcapture.colorado.edu/Mediasite/Play/5174513bb1294d1fb49c135f5c240de81d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Molecular dynamics |
 | [Dec 2](https://cu-classcapture.colorado.edu/Mediasite/Play/fca8349b144f462398bfbf5db4a948551d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Git workflows |
 | [Dec 4](https://cu-classcapture.colorado.edu/Mediasite/Play/7f764eb6c88148cbba3639db346e07b91d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Fourier methods |
+| [Dec 6](https://cu-classcapture.colorado.edu/Mediasite/Play/1b30c518028b4bbba7f679480e3cb9651d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Multigrid Intro |
