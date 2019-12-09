@@ -100,3 +100,4 @@ and linked below.
 | [Dec 2](https://cu-classcapture.colorado.edu/Mediasite/Play/fca8349b144f462398bfbf5db4a948551d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Git workflows |
 | [Dec 4](https://cu-classcapture.colorado.edu/Mediasite/Play/7f764eb6c88148cbba3639db346e07b91d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Fourier methods |
 | [Dec 6](https://cu-classcapture.colorado.edu/Mediasite/Play/1b30c518028b4bbba7f679480e3cb9651d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Multigrid Intro |
+| [Dec 9](https://cu-classcapture.colorado.edu/Mediasite/Play/f69b21e485a84c68a20e9395e3e7b8b21d?catalog=38dea75ea63b491fa8cc2804c084abb821) | Algebraic Multigrid |
