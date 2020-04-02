@@ -15,8 +15,8 @@ weight: 1
 * CSCI 5576 / 4576: High Performance Scientific Computing
 * Lectures: **Mon/Wed/Fri 11-11:50** in ECCR 150
 * Labs: **Fri 9-10:40** in KOBL 300
-* Website: https://cucs-hpsc.github.io/fall2019
-* Issues/Questions/etc.: [Browse](https://github.com/cucs-hpsc/hpsc-class/issues) or [Create](https://github.com/cucs-hpsc/hpsc-class/issues/new)
+* Website: https://cu-hpsc.github.io/fall2019
+* Issues/Questions/etc.: [Browse](https://github.com/cu-hpsc/hpsc-class/issues) or [Create](https://github.com/cu-hpsc/hpsc-class/issues/new)
 
 #### Zoom
 - Meeting ID: 214-104-523
